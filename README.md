@@ -1,2 +1,7 @@
 # Habibi-Milk
-This is Kinan Al-Mouk's term project for LING1340 Data Science for Linguists at the University of Pittsburgh
+Kinan Al-Mouk
+### Summary 
+This project counts as submission for my term project for LING1340 Data Science for Linguists instructed by Na-Rae Han at the University of Pittsburgh
+
+
+  
