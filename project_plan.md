@@ -12,7 +12,7 @@ The corpus was created as part of the United Nations commitment to multilinguali
 
 The purpose of the corpus is to allow access to multilingual language resources and facilitate research and progress in various natural language processing tasks, including machine translation. For convenience, the corpus is also available pre-packaged as language-specific bi-texts and as a six-language parallel corpus subset.
 
-I will be using the *Fully aligned plain subcorpus in the six official UN languages* composed of folders organized by language, publication year, and publication symbols. The formatting is XML files.
+I will be using the **Fully aligned plain subcorpus in the six official UN languages** composed of folders organized by language, publication year, and publication symbols. The formatting is XML files.
 
 ## Analysis
 Word length, Sentence length, Hapaxes, TTR, etc. How does each language say the same thing but differently, as well as what remains the same? What can't change abou langauge. Is that close to semanticity?
