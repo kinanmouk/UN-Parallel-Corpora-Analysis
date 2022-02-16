@@ -2,7 +2,7 @@
 # UN Parallel Corpora Analysis Project Plan 
 
 ## Summary
-I want to analyze all data of the UN's cross translated documents to further study how different languages can say the same things in differnet lengths/structures.
+My term project will analyze all UN documents in the public domain written between 1990-2014. The documents will be available in the six official lanaguges of the United Naitons: English, Spanish, French, Arabic, Russian, and Mandarin Chinese. 
 
 ## Data Portion and Description
 
@@ -15,7 +15,7 @@ The purpose of the corpus is to allow access to multilingual language resources 
 I will be using the **Fully aligned plain subcorpus in the six official UN languages** composed of folders organized by language, publication year, and publication symbols. The formatting is XML files.
 
 ## Analysis
-Word length, Sentence length, Hapaxes, TTR, etc. How does each language say the same thing but differently, as well as what remains the same? What can't change abou langauge. Is that close to semanticity?
+I will be analyzing word length, sentence length, hapaxes, TTR, etc of each UN offical language. I am askign the question: How can each language say the same thing but with different structures, as well as what remains the same? What can't change about langauge, what is the most core aspect of langauge that is neccessary to illustrate or report the smae information. Is that close to semanticity?
 
 ## Presentation
 UN color scheme, Pandas charts, texts from several articles (english translations when not an english-L2 file.)
