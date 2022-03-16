@@ -4,7 +4,7 @@ Kinan Al-Mouk
 ## Directory
 - [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` sixway offical UN langauge DataFrame.
 
-- [`data_samples`](data_samples)
+- [`data_samples/`](data_samples/) folder is where the segmented data files from the [UN Parallel Corporus website](https://conferences.unite.un.org/uncorpus) are found.
 
 - [`LICENSE.md`](LICENSE.md)
 
