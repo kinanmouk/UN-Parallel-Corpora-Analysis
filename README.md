@@ -10,6 +10,8 @@ Data Source: [`United Nations, Department for General Assembly and Conference Ma
 
 - [`data_samples/`](data_samples/) folder is where the segmented data files from the [UN Parallel Corpus website](https://conferences.unite.un.org/uncorpus) are found.
 
+- [`image_files/`](image_files/) folder is where the `matplot` graphs are saved as `pngs`.
+
 - [`UNv1.0.pdf`](UNv1.0.pdf) is the licensing information downloaded with original data from the [UN Parallel Corpus website](https://conferences.unite.un.org/uncorpus).
 
 - [`LICENSE.md`](LICENSE.md) contains licensing information from [`UNv1.0.pdf`](UNv1.0.pdf).
