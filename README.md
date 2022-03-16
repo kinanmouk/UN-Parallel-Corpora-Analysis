@@ -2,7 +2,7 @@
 Kinan Al-Mouk
 
 ## Directory
-- [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` data frame.
+- [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` sixway offical UN langauge DataFrame.
 
 - [`data_samples`](data_samples)
 
