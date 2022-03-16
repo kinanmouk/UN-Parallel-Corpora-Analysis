@@ -8,9 +8,9 @@ Data Source: [`United Nations, Department for General Assembly and Conference Ma
 ## Directory
 - [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` sixway offical UN langauge DataFrame.
 
-- [`data_samples/`](data_samples/) folder is where the segmented data files from the [UN Parallel Corporus website](https://conferences.unite.un.org/uncorpus) are found.
+- [`data_samples/`](data_samples/) folder is where the segmented data files from the [UN Parallel Corpus website](https://conferences.unite.un.org/uncorpus) are found.
 
-- [`UNv1.0.pdf`](UNv1.0.pdf) is the licensing information downloaded with original data from the [UN Parallel Corporus website](https://conferences.unite.un.org/uncorpus).
+- [`UNv1.0.pdf`](UNv1.0.pdf) is the licensing information downloaded with original data from the [UN Parallel Corpus website](https://conferences.unite.un.org/uncorpus).
 
 - [`LICENSE.md`](LICENSE.md) contains licensing information from [`UNv1.0.pdf`](UNv1.0.pdf).
 
