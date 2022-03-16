@@ -1,16 +1,16 @@
 # United Nations 6 Way Parallel Corpora Analysis 
 Kinan Al-Mouk
 
-## Directory 
-- [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb)^^
+## Directory
+- [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb)
 
-- [data_samples](data_samples)
+- [`data_samples`](data_samples)
 
-- [LICENSE.md](LICENSE.md)
+- [`LICENSE.md`](LICENSE.md)
 
-- [project_plan.md](project_plan.md)
+- [`project_plan.md`](project_plan.md)
 
-- [progress_report.md](progress_report.md)
+- [`progress_report.md`](progress_report.md)
 
 
 
