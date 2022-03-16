@@ -6,11 +6,11 @@ Kinan Al-Mouk
 
 - [`data_samples/`](data_samples/) folder is where the segmented data files from the [UN Parallel Corporus website](https://conferences.unite.un.org/uncorpus) are found.
 
-- [`LICENSE.md`](LICENSE.md)
+- [`LICENSE.md`](LICENSE.md) contains licensing information.
 
-- [`project_plan.md`](project_plan.md)
+- [`project_plan.md`](project_plan.md) was my initial project plan.
 
-- [`progress_report.md`](progress_report.md)
+- [`progress_report.md`](progress_report.md) contains progress logs throughout the completion of the project.
 
 
 
