@@ -1,6 +1,6 @@
 # License Information
 
-**Information Below is copied directly from: [`UNv1.0.pdf`](UNv1.0.pdf)**
+**Information Below is copied directly from [`UNv1.0.pdf`](UNv1.0.pdf):**
 
 The UN parallel corpus is composed of official records and other parliamentary documents of the United Nations that are in the public domain. The UN corppus will be made available for download at http:// conferences.unite.un.org/UNCorpus.
 
