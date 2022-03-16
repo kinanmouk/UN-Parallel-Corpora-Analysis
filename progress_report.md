@@ -19,7 +19,7 @@
 
 - Updated [`README.md`](README.MD)
 
-- Updated [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf)`](UNv1.0.pdf)
+- Updated [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf`](UNv1.0.pdf)
 
 - Created [`data_samples/`](data_samples/)
 
