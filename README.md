@@ -8,9 +8,11 @@ Kinan Al-Mouk
 
 [LICENSE.md](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/LICENSE.md)
 
+[project_plan.md](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/project_plan.md)
+
 [progress_report.md](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/progress_report.md)
 
-[project_plan.md](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/project_plan.md)
+
 
 
 
