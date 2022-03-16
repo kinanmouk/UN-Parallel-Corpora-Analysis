@@ -19,4 +19,6 @@
 - This gve me a lot of trouble, I do not know how to safely analyze the data. It keeps saying kernel has appeared to of died and then restarts however due to timing you can see that this makes it really hard to work with the data. 
 - I am also not really sure how to save the segemented data to my computer so that I can upload it. Need to go to office hours.
 
-
+## Progress Report 3
+### March 16th 2022
+- Since the files took to long to upload into juypter and my personal laptop was unable to compute the size of the decompressed UN archive files I created smaller portions of data for each language in command line. Each langauge file now has 100k characters so that I can analyze the data safely without my computer crashing. I created subheadings for each langauge and uploaded all analyzed data into a pandas dataframe both for presentation and for easy access.
