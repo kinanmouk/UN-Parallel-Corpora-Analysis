@@ -2,7 +2,6 @@
 Kinan Al-Mouk
 
 ## Directory 
--------
 - [UN_Data_Analysis.ipynb](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/UN_Data_Analysis.ipynb) 
 
 - [data_samples](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/tree/main/data_samples)
