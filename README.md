@@ -2,7 +2,7 @@
 Kinan Al-Mouk
 
 ## Directory 
-- `[UN_Data_Analysis.ipynb]<UN_Data_Analysis.ipynb>`
+- ^^[UN_Data_Analysis.ipynb](UN_Data_Analysis.ipynb)^^
 
 - [data_samples](data_samples)
 
