@@ -1,5 +1,5 @@
 # United Nations 6 Way Parallel Corpora Analysis 
-By: **Kinan Al-Mouk**
+By: **Kinan Al-Mouk** <kim47@pitt.edu>
 
 Goal: Explore the Linguistic Elements of the six Official United Nations' Languages: `English, Spanish, French, Russian, Arabic, and Mandarin Chinese.`
 
