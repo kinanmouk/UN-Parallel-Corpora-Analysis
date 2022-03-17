@@ -27,8 +27,5 @@ Data Source: [`United Nations, Department for General Assembly and Conference Ma
 This project counts as submission for my term project for LING1340 Data Science for Linguists instructed by Na-Rae Han at the University of Pittsburgh.
 
 
-## Visitors Log
-My Guestbook can be found [here](https://github.com/Data-Science-for-Linguists-2022/Class-Lounge/blob/main/guestbooks/guestbook_kinan.md).
-
 
   
