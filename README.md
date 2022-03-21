@@ -1,11 +1,11 @@
 # United Nations 6 Way Parallel Corpora Analysis 
-By: **Kinan Al-Mouk** 
+**By:** Kinan Al-Mouk
 
 - Email: <kim47@pitt.edu>
 
-Goal: Explore the Linguistic Elements of the six Official United Nations' Languages: English, Spanish, French, Russian, Arabic, and Mandarin Chinese.
+**Goal:** Explore the Linguistic Elements of the six Official United Nations' Languages: English, Spanish, French, Russian, Arabic, and Mandarin Chinese.
 
-Data Source: [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
+**Data Source:** [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
 
 ## Directory
 - [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` sixway offical UN langauge DataFrame.
