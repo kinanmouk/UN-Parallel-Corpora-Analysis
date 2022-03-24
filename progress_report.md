@@ -33,6 +33,8 @@
 
 - Updated [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf`](UNv1.0.pdf) and MIT
 
+ - Went with MIT because it does not overlap with U.N. Licensing requirements however I may change my mind.
+
 - Created [`data_samples/`](data_samples/)
 
 - Created [`image_files/`](image_files/)
