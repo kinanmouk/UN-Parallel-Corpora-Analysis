@@ -25,12 +25,13 @@
 - Updated [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) (EXISTING)
 
      - Since the files took to long to upload into juypter and my personal laptop was unable to compute the size of the decompressed UN archive files I created smaller portions of data for each language in command line. Each langauge file now has 100k characters so that I can analyze the data safely without my computer crashing. I created subheadings for each langauge and uploaded all analyzed data into a pandas dataframe both for presentation and for easy access.
-     - 
+     - There is do data/ section for me because my data files are too large. [`data_samples/`](data_samples/) should suffice.
+     
 ### March 21st 2022
 
 - Updated [`README.md`](README.MD)
 
-- Updated [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf`](UNv1.0.pdf)
+- Updated [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf`](UNv1.0.pdf) and MIT
 
 - Created [`data_samples/`](data_samples/)
 
