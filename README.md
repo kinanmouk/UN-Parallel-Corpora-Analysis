@@ -28,6 +28,7 @@
 ## Summary 
 This project counts as submission for my term project for LING1340 Data Science for Linguists instructed by Na-Rae Han at the University of Pittsburgh.
 
-
+## Guestbook
+- [`Kinan Al-Mouk's Guestbook`](https://github.com/Data-Science-for-Linguists-2022/Class-Lounge/blob/main/guestbooks/guestbook_kinan.md)
 
   
