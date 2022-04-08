@@ -28,20 +28,13 @@
      - There is do data/ section for me because my data files are too large. [`data_samples/`](data_samples/) should suffice.
      
 ### March 21st 2022
-
-- Updated [`README.md`](README.MD)
-
-- Updated [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf`](UNv1.0.pdf) and MIT
-
- - Went with MIT because it does not overlap with U.N. Licensing requirements however I may change my mind.
-
-- Created [`data_samples/`](data_samples/)
-
-- Created [`image_files/`](image_files/)
-
-## Decision on Licensin
-### March 21st 2022
-
+- Files Created 
+     - [`data_samples/`](data_samples/)
+     - [`image_files/`](image_files/)
+     - 
+- Files Updated
+     -   [`README.md`](README.MD)
+     -   [`LICENSE.md`](LICENSE.md) using [`UNv1.0.pdf`](UNv1.0.pdf) and MIT
 
 # 3rd Progress Report
 ### April 8th 2022
