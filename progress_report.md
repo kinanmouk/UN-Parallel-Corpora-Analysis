@@ -46,7 +46,7 @@
 # 3rd Progress Report
 ### April 8th 2022
 - Files Created 
-     - [SpaCyNLP.ipynb](SpaCyNLP.ipynb)
+     - [`SpaCyNLP.ipynb`](SpaCyNLP.ipynb)
      
 - Files Updated
      -  [`README.md`](README.MD)
