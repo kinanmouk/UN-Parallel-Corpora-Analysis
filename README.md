@@ -8,7 +8,7 @@
 **Data Source:** [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
 
 ## Directory
-- [`SpaCyNLP.ipynb`](SpaCyNLP.ipynb) is the file that contains all new processing of the data post [UN_Data_Analysis.ipynb](UN_Data_Analysis.ipynb) using SpaCy for English, Spanish, French, Russian, and Mandarin Chinese processing. Arabic processing is pending. 
+- [`SpaCyNLP.ipynb`](SpaCyNLP.ipynb) is the file that contains all new processing of the data post [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) using SpaCy for English, Spanish, French, Russian, and Mandarin Chinese processing. Arabic processing is pending. 
 
 - [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` sixway offical UN langauge DataFrame.
 
