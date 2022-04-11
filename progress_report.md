@@ -45,7 +45,7 @@
          There are a few problem as of right now:
         -   There is no SpaCy module to process Arabic.
          -  Arabic is a very difficult langauge to parse.
-        -   [`SpaCy`](https://spacy.io/) only processes a small amount of text, meaning I might have to use Chunks in order to do this accurarately.
+        -   [`SpaCy`](https://spacy.io/) only processes a small amount of text, meaning I might have to process in chunks in order to do this with a huge portion of data.
          -  I might have to use the [`Pitt CRC`](https://crc.pitt.edu/) in order to process these files.
      
 - Files Updated
