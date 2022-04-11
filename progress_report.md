@@ -40,6 +40,13 @@
 ### April 8th 2022
 - Files Created 
      - [`SpaCyNLP.ipynb`](SpaCyNLP.ipynb) (NEW REPLACEMENT)
+         
+         Okay so this file now has a lot of new NLP using [`SpaCy`](https://spacy.io/) which is a linguistics tool that parses langauges and processes them best based off of the strucure of the language. It is better than using NLTK bc it truly represents each langauge accurately because NLTK is mostly English focused. 
+         There are a few problem as of right now:
+        -   There is no SpaCy module to process Arabic.
+         -  Arabic is a very difficult langauge to parse.
+        -   SpaCy only processes a small amount of text, meaning I might have to use Chunks in order to do this accurarately.
+         -  I might have to use the Pitt CRC in order to process these files.
      
 - Files Updated
      -  [`README.md`](README.MD)
