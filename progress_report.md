@@ -41,7 +41,7 @@
 - Files Created 
      - [`SpaCyNLP.ipynb`](SpaCyNLP.ipynb) (NEW REPLACEMENT)
          
-         Okay so this file now has a lot of new NLP using [`SpaCy`](https://spacy.io/) which is a linguistics tool that parses langauges and processes them best based off of the strucure of the language. It is better than using NLTK bc it truly represents each langauge accurately because NLTK is mostly English focused. 
+         Okay so this file now has a lot of new NLP using [`SpaCy`](https://spacy.io/) which is a linguistics tool that parses langauges and processes them best based off of the strucure of the language. It is better than using NLTK bc it truly represents each langauge accurately because NLTK is mostly English focused. My data portion of this project is not completed however at this stage I believe that this is okay due to the fact that Arabic is difficult to process and [`SpaCy`](https://spacy.io/) presents many processing issues. I need help with figuring out what my next steps are in this process.
          There are a few problem as of right now:
         -   There is no SpaCy module to process Arabic.
          -  Arabic is a very difficult langauge to parse.
