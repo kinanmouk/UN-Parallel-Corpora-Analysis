@@ -1,4 +1,5 @@
-# United Nations 6 Way Parallel Corpora Analysis [283px-UN_emblem_blue svg](https://user-images.githubusercontent.com/70531632/164070555-a51e4428-93f2-4fcc-97bc-d098a7ef5d76.png)
+# United Nations 6 Way Parallel Corpora Analysis
+[283px-UN_emblem_blue svg](https://user-images.githubusercontent.com/70531632/164070555-a51e4428-93f2-4fcc-97bc-d098a7ef5d76.png)
 **By:** Kinan Al-Mouk!
 
 - Email: <kim47@pitt.edu>
