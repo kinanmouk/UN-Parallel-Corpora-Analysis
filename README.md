@@ -1,6 +1,6 @@
 # United Nations 6 Way Parallel Corpora Analysis
-**By:** Kinan Al-Mouk
-![283px-UN_emblem_blue svg](https://user-images.githubusercontent.com/70531632/164070706-79e4bb0f-f09b-4ef1-ba55-23fb2557f5d7.png)
+**By:** Kinan Al-Mouk ![283px-UN_emblem_blue svg](https://user-images.githubusercontent.com/70531632/164070706-79e4bb0f-f09b-4ef1-ba55-23fb2557f5d7.png)
+
 
 
 - Email: <kim47@pitt.edu>
