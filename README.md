@@ -8,7 +8,9 @@
 **Data Source:** [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
 
 ## Directory
-- [`DataProcessing.ipynb`](DataProcessing.ipynb) is the file that contains all new processing of the data post [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) using SpaCy for English, Spanish, French, Russian, and Mandarin Chinese processing. Arabic processing is pending. 
+- [`DataProcessing.ipynb`](DataProcessing.ipynb) is the file that contains all new processing of the data post [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) using SpaCy for English, Spanish, French, Russian, and Mandarin Chinese processing. Arabic processing is pending.
+
+- [`new_image_files/`](new_image_files/) folder is where the [matplot](https://matplotlib.org/) graphs are saved as `.png` files from [`DataProcessing.ipynb`](DataProcessing.ipynb)
 
 - [`UN_Data_Analysis.ipynb`](UN_Data_Analysis.ipynb) is the file that contains all processing of the beginning data as well as the creation of the `pandas` sixway offical UN langauge DataFrame.
 
