@@ -36,11 +36,18 @@ The next step in cleaning was reading the workable files in for use in [Juypter 
 
 I first began processing each language using `nltk` for **word tokenization** and **sentence tokenization**. This worked effectively for English however fell short in other languages as `nltk` is not specifically designed for multilingual processing. This error was captured in word tokenization of the [mandarin.100k](#mandarin). 
 
-As you can see in the [`pandas` dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/UN_Data_Analysis.ipynb#DataFrame-Construction), the **Word_Tokens** column shows the `nltk` word tokenization of each UN language. The last row of the column shows '1994年5月17日安全理事会第3377次会' ("Security Council of May 17, 1994") being treated by `nltk` as one token. The proper way to tokenize this would have been ["1994年", "5月", "17日", "安全", "理事会"].
+As you can see in the [`pandas` dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/UN_Data_Analysis.ipynb#DataFrame-Construction), the **Word_Tokens** column shows the `nltk` word tokenization of each UN language. The last row of the column shows '1994年5月17日安全理事会第3377次会' ("Security Council of May 17, 1994") being treated by `nltk` as one token. The proper way to tokenize this Mandarin text would have been ["1994年", "5月", "17日", "安全", "理事会"].
 
 After researching other ways to process a multilingual parallel corpus, Na-Rae suggested the use of `SpaCy`. `SpaCy` supports the use of over 64 langauges, however the difference between this and `nltk` is that it allows for linguistically-motivated tokenization, named entity recognition, part-of-speech tagging, dependency parsing, and sentence segmentation. It is a super power processor. 
 
-I then created a new Juypter notebook file for processing labeled ['DataProcessing.ipynb`](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb)
+I then created a new Juypter notebook file for processing labeled [`DataProcessing.ipynb`](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb) for using `SpaCy` as my main NLP tool.
+
+[In the notebook](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Downloading-SpaCy-object-for-English-processing) I downloaded the SpaCy object for processing each language seperately. I created a slice of 1 million characters in order to train the `SpaCy` nlp document without an increase in error rate as according to the website. Using the `time` method it can be observed that it took about 82 seconds for the document to be trained using SpaCy's English module. 
+
+I then moved on to [word tokenization](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Word-Tokenizing-Mandarin-Document) where it can be observed that SpaCy's Mandarin module properly trained the Mandarin document to tokenize '1994年5月17日安全理事会第3377次会' as ["1994年", "5月", "17日", "安全", "理事会"] in only 2 seconds. 
+
+SpaCy worked properly in processing each UN langauge with the exception of Arabic. There is no module available today for Arabic procesing on their website. After researching other Arabic NLP resources for use I discovered [CAMel Tool Kit](https://aclanthology.org/2020.lrec-1.868/)
+
 
 ### Linguistic Analysis
 
