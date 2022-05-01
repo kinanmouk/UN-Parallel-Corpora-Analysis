@@ -9,7 +9,7 @@
 **Data Source:** [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
 
 ## Directory
-- [`final_report.md`](final_report.md) is my final report write-up.
+- [**`final_report.md`**](final_report.md) is my final report write-up.
 
 - [`DataProcessing.ipynb`](DataProcessing.ipynb) is the file that contains all new processing of the data post    using SpaCy for English, Spanish, French, Russian, and Mandarin  processing. 
 
