@@ -46,7 +46,9 @@ I then created a new Juypter notebook file for processing labeled [`DataProcessi
 
 I then moved on to [word tokenization](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Word-Tokenizing-Mandarin-Document) where it can be observed that SpaCy's Mandarin module properly trained the Mandarin document to tokenize '1994年5月17日安全理事会第3377次会' as ["1994年", "5月", "17日", "安全", "理事会"] in only 2 seconds. 
 
-SpaCy worked properly in processing each UN langauge with the exception of Arabic. There is no module available today for Arabic procesing on their website. After researching other Arabic NLP resources for use I discovered [CAMel Tool Kit](https://aclanthology.org/2020.lrec-1.868/)
+SpaCy worked properly in processing each UN langauge with the exception of Arabic. There is no module available today for Arabic procesing on their website. After researching other Arabic NLP resources for use I discovered [CAMeL Tool Kit](https://aclanthology.org/2020.lrec-1.868/) which is a suite of Arabic NLP tools developed at NYU Abu Dhabi.
+
+Despite finding CAMeL, it was unable to be used accurately in my parallel corpora analysis due to slight differences in its tools. Its POS tagger did not use the same labels as that of `SpaCy's`, it  does not have a way to sentence tokenize, and also has a lower processing power than `SpaCy`. using this tool would have undermined the parallel aspect of my data collection and analysis. I hope to use it in the future as it is a tool that interests me greatly as an Arabic speaker.
 
 
 ### Linguistic Analysis
