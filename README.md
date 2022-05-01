@@ -1,5 +1,5 @@
 # United Nations 6 Way Parallel Corpora Analysis
-
+**May 1st 2022**
 **By:** Kinan Al-Mouk 
   -  Email: <kim47@pitt.edu>
   -  [LinkedIN](https://www.linkedin.com/in/kinan-moukamal-8646b5197/)
@@ -7,6 +7,9 @@
 **Goal:** Explore the Linguistic Elements of the six Official United Nations' Languages: English, Spanish, French, Russian, Arabic, and Mandarin Chinese.
 
 **Data Source:** [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
+
+## Summary 
+This project counts as submission for my term project for LING1340 Data Science for Linguists instructed by Na-Rae Han at the University of Pittsburgh. All data was obtained from the [UN website](https://conferences.unite.un.org/uncorpus) and processed using `nltk` and `SpaCy`.
 
 ## Directory
 - [**`final_report.md`**](final_report.md) is my final report write-up.
@@ -28,10 +31,6 @@
 - [`project_plan.md`](project_plan.md) was my initial project plan.
 
 - [`progress_report.md`](progress_report.md) contains progress logs throughout the completion of the project.
-
-
-## Summary 
-This project counts as submission for my term project for LING1340 Data Science for Linguists instructed by Na-Rae Han at the University of Pittsburgh.
 
 ## Guestbook
 - [`Kinan Al-Mouk's Guestbook`](https://github.com/Data-Science-for-Linguists-2022/Class-Lounge/blob/main/guestbooks/guestbook_kinan.md)
