@@ -16,7 +16,7 @@ This corpus was sourced from the [UN website](https://conferences.unite.un.org/u
 
 The files were downloaded from the source. It states on the website that each document was in `XML` file format with embedded meta-information of the **Symbol** of the official UN document, it's **translation job number**, the **publication date**, the **processing location**, and the **keyword** which determined the document subject.
 
-The value behind using this corpus is that it allows for accesss to multilingual language resources 
+The value behind using this corpus is that it allows for accesss to multilingual language resources. Oftentimes in technological and ML advancements today we see issues of accessibility for multilingual users as well as L2 speakers of a language of higher prestige. In using UN data I am sure that the data collected represents each of the six UN official langauges to the highest translation standard. 
 
 ## Data Cleanup
 ## Analysis
