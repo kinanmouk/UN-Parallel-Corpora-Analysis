@@ -50,8 +50,10 @@ SpaCy worked properly in processing each UN langauge with the exception of Arabi
 
 Despite finding CAMeL, it was unable to be used accurately in my parallel corpora analysis due to slight differences in its tools. Its POS tagger did not use the same labels as that of `SpaCy's`, it  does not have a way to sentence tokenize, and also has a lower processing power than `SpaCy`. using this tool would have undermined the parallel aspect of my data collection and analysis. I hope to use it in the future as it is a tool that interests me greatly as an Arabic speaker.
 
+I chose to continue with using SpaCy and ultimately had to put off Arabic processing to the side in order to maintain parallel processing for accurate linguistic comparison and analysis. 
 
 ### Linguistic Analysis
+My goal with processing the UN Parllel corpus was to make lingusitic comparisons between six widely spoken, learned, and political languages based off of average word length, sentence length, etc. 
 
 
 ## Conclusion
