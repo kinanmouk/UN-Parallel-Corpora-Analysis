@@ -94,10 +94,19 @@ Now taking a look at the [dataframe](https://nbviewer.org/github/Data-Science-fo
 
 
 **POS Tagging**
+
 Here is a `matplot` graph showing the comparison in **POS Count** for each langauge. 
 ![POS](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/new_image_files/POS_Count.png)
 
-w
+As you can see from this as well as the [dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Creating-DataFrame-for-Analyzation) is that Mandarin has a **POS_Count** of 553748 with a set of {'INTJ', 'SCONJ', 'DET', 'VERB', 'NOUN', 'SPACE', 'PRON', 'ADV', 'CCONJ', 'ADJ', 'X', 'PART', 'NUM', 'ADP', 'PUNCT', 'PROPN'} 
+
+Russian has the lowest count of 153964 with a set of {'INTJ', 'SYM', 'SCONJ', 'DET', 'VERB', 'SPACE', 'NOUN', 'PRON', 'CCONJ', 'ADV', 'AUX', 'X', 'PART', 'NUM', 'ADP', 'PROPN', 'PUNCT', 'ADJ'} 
+
+Russian has two more POS taggers in its `SpaCy` module than Mandarin, however they do vary. This shows that `SpaCy` takes into account the different POS languages can have in comparison to others. Although a cross lingusitic comparison can not be made on empiracally or statistically with this specific data it can show how different languages absolve the need for ceratin POS over others. 
+
+For instance, `SpaCy`'s Mandarin module does not have the POS tag label "SYM," however Russian does. "SYM" means symbol = $, %, §, ©, +, −, ×, ÷, =, :), 😝
+
+The Mandarin module also does not have "AUX" or auxillary such as is, has (done), will (do), should (do) in English.
 
 **Dependency Tagging**
 
