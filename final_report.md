@@ -74,8 +74,15 @@ This can be attributed to many lingusitic differences, which then can highlight 
 
 In [sentence tokenization](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-Mandarin-Document) of each language it is shown that `SpaCy` tokenizes each sentence differently.
 
-For example SpaCy sentence tokenizes the [English sentence](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-English-Document): "Demands that all parties to the conflict immediately cease hostilities, agree to a cease-fire, and bring an end to the mindless violence and carnage engulfing Rwanda;
+For example SpaCy sentence tokenizes the [English sentence](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-English-Document) as "Demands that all parties to the conflict immediately cease hostilities, agree to a cease-fire, and bring an end to the mindless violence and carnage engulfing Rwanda;
 2."
+
+And then tokenizes the same sentence in [French](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-French-Document) as "Exige que toutes les parties au conflit cessent immédiatement les hostilités, acceptent un cessez-le-feu et mettent fin à la violence et au carnage insensés dans lesquels est plongé le Rwanda;"
+
+In English sentence tokenization, the semi-colon is not seen as an end of sentence boundary, which can be seen as "2." is the marked end of the sentence, however in French tokenization, the semi-colon does act as the end of the sentence. In French grammar the semi-colon can complete a sentence but never ends a text. Despite this grammatical rule, the sentence tokenization slighlty differs linguistically in English and French tokenization.
+
+[Here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-Mandarin-Document) is a representation of how `SpaCy` sentence tokenized the same sentence in each langauge 
+
 **POS Tagging**
 
 **Dependency Tagging**
