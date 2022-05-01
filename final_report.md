@@ -69,6 +69,9 @@ Despite shorter words, the process of [word tokenizing](https://nbviewer.org/git
 
 This can be attributed to many lingusitic differences, which then can highlight many functions in NLP. Mandarin for example does not use spaces in order to seperate words, whereas French and other languages do. This difference in lingusitic word usage can highlight why `nltk` was unable to properly process Mandarin, there was no whitespace " " between tokens in the documents, and therefore processing in langauges without spaces such as Japanese and Mandarin may present issues in time processing.
 
+Here is a `matplot` graph showing the comparison in **word token length** for each langauge. 
+https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/new_image_files/Word_Tokens.png
+
 
 **Sentence Tokenization**
 
