@@ -5,6 +5,7 @@ by Kinan Al-Mouk
   - [`Data Sourcing and Explanation`](#-Data-Sourcing-and-Explanation)
   - [`Data Cleanup`](#-Introduction)
   - [`Analysis`](#-Introduction)
+  
     -[`Computational Methods`](#-Computational-Methods)
     -[`Linguistic Analysis`](#-Linguistic-Analysis)
   - [`Conclusion`](#-Introduction)
