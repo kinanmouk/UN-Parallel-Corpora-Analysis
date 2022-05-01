@@ -58,6 +58,7 @@ All analysis in this section is with `SpaCy` findings.
 My goal with processing the UN Parllel corpus was to make lingusitic comparisons between six widely spoken, learned, and political languages based off of average word length, sentence length, etc. 
 
 **Word Tokenization** 
+
 Taking a look at the `pandas` dataframe created in [`DataProcessing.ipynb`](DataProcessing.ipynb) the first four columns show the [language, document, word_tokens, and word_token_length](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Creating-DataFrame-for-Analyzation) of each language. 
 
 It is shown through these columns the word tokenizaiton process of English, Spanish, French, Russian, and Mandarin. Mandarin has thet largest Word Token count out of each official language at **553748** words, Russian has the lowest at **153964** words.
@@ -71,6 +72,10 @@ This can be attributed to many lingusitic differences, which then can highlight 
 
 **Sentence Tokenization**
 
+In [sentence tokenization](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-Mandarin-Document) of each language it is shown that `SpaCy` tokenizes each sentence differently.
+
+For example SpaCy sentence tokenizes the [English sentence](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-English-Document): "Demands that all parties to the conflict immediately cease hostilities, agree to a cease-fire, and bring an end to the mindless violence and carnage engulfing Rwanda;
+2."
 **POS Tagging**
 
 **Dependency Tagging**
