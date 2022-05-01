@@ -22,9 +22,10 @@ The value behind using this corpus is that it allows for accesss to multilingual
 
 Cleaning the data for proper use proved to be one of the most difficult tasks of this term project. Each of the `zip` six files downloaded from the [UN website](https://conferences.unite.un.org/uncorpus) were large in size. The largest file being **800 MB**. After unzipping the `tar` files took up a total of **12 GB** of space on my computer.
 
-After opening each file in a text viewer it was clear that each document was not in `XML` file format but in `.txt` format. I explored the new `.txt` file format using the English document. There were no markers that I could have used to seperate each document based on the embedded meta-information that was described in the XML format.
+After opening each file in a text viewer it was clear that each document was not in `XML` file format but in `.txt` format. I explored the new `.txt` file format using the English document and found that there were over 2 billion lines. There were no text markers that I could have used to seperate each document based on the embedded meta-information that was described in the XML format. 
 
-which can be found in [`data-samples/`](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/data-samples/)
+After several trial and error attempts in seperating each UN document within the large English file, I used command line to slice the document into the first 100k lines labeled it as [`english.100k`](#english) 
+which can be found in [`data-samples/`](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/data-samples/).
 
 ## Analysis
 ## Conclusion
