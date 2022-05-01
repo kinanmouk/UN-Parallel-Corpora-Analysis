@@ -21,7 +21,6 @@ The files were downloaded from the source. It states on the website that each do
 The value behind using this corpus is that it allows for accesss to multilingual language resources. Oftentimes in technological and ML advancements today we see issues of accessibility for multilingual users as well as L2 speakers of a language of higher prestige. In using UN data I am sure that the data collected represents each of the six UN official langauges to the highest translation standard. 
 
 ## Data Cleanup
-
 Cleaning the data for proper use proved to be one of the most difficult tasks of this term project. Each of the `zip` six files downloaded from the [UN website](https://conferences.unite.un.org/uncorpus) were large in size. The largest file being **800 MB**. After unzipping the `tar` files took up a total of **12 GB** of space on my computer.
 
 After opening each file in a text viewer it was clear that each document was not in `XML` file format but in `.txt` format. I explored the new `.txt` file format using the English document and found that there were over 2 billion lines. There were no text markers that I could have used to seperate each document based on the embedded meta-information that was described in the XML format. 
@@ -34,9 +33,14 @@ The next step in cleaning was reading the workable files in for use in [Juypter 
 
 ## Analysis
 ### Computational Methods
+
 I first began processing each language using `nltk` for **word tokenization** and **sentence tokenization**. This worked effectively for English however fell short in other languages as `nltk` is not specifically designed for multilingual processing. This error was captured in word tokenization of the [mandarin.100k](#mandarin). 
 
 As you can see in the [`pandas` dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/UN_Data_Analysis.ipynb#DataFrame-Construction), the **Word_Tokens** column shows the `nltk` word tokenization of each UN language. The last row of the column shows '1994年5月17日安全理事会第3377次会' ("Security Council of May 17, 1994") being treated by `nltk` as one token. The proper way to tokenize this would have been ["1994年", "5月", "17日", "安全", "理事会"].
+
+After researching other ways to process a multilingual parallel corpus, Na-Rae suggested the use of `SpaCy`. `SpaCy` supports the use of over 64 langauges, however the difference between this and `nltk` is that it allows for linguistically-motivated tokenization, named entity recognition, part-of-speech tagging, dependency parsing, and sentence segmentation. It is a super power processor. 
+
+I then created a new Juypter notebook file for processing labeled ['DataProcessing.ipynb`](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb)
 
 ### Linguistic Analysis
 
