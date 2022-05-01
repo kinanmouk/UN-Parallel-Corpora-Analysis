@@ -76,6 +76,9 @@ This can be attributed to many lingusitic differences, which then can highlight 
 
 **Sentence Tokenization**
 
+Here is a `matplot` graph showing the comparison in **sentence token length** for each langauge. 
+![Word Tokens](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/new_image_files/Sentence_Length.png)
+
 In [sentence tokenization](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-Mandarin-Document) of each language it is shown that `SpaCy` tokenizes each sentence differently.
 
 For example SpaCy sentence tokenizes the [English sentence](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-English-Document) as "Demands that all parties to the conflict immediately cease hostilities, agree to a cease-fire, and bring an end to the mindless violence and carnage engulfing Rwanda;
