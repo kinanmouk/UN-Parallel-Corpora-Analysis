@@ -6,7 +6,7 @@ by Kinan Al-Mouk
   - [`Data Cleanup`](#-Introduction)
   - [`Analysis`](#-Introduction)
   - [`Conclusion`](#-Introduction)
-  - ['Sources'](#-Sources)
+  - [`Sources`](#-Sources)
 
 ## Introduction
 For my term project in Na-Rae Han's Data Science for Linguists class at the University of Pittsburgh, I chose to use the [United Nations' Sixway Parallel Corpus](https://conferences.unite.un.org/uncorpus).
