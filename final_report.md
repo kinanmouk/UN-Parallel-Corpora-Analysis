@@ -53,7 +53,13 @@ Despite finding CAMeL, it was unable to be used accurately in my parallel corpor
 I chose to continue with using SpaCy and ultimately had to put off Arabic processing to the side in order to maintain parallel processing for accurate linguistic comparison and analysis. 
 
 ### Linguistic Analysis
+All analysis in this section is with `SpaCy` findings.
+
 My goal with processing the UN Parllel corpus was to make lingusitic comparisons between six widely spoken, learned, and political languages based off of average word length, sentence length, etc. 
+
+**Word Tokenization** 
+Taking a look at the `pandas` dataframe created in [`DataProcessing.ipynb`](DataProcessing.ipynb) the first four columns show the [language, document, word_tokens, and word_token_length](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Creating-DataFrame-for-Analyzation) of each language. 
+
 
 
 ## Conclusion
