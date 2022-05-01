@@ -81,7 +81,9 @@ And then tokenizes the same sentence in [French](https://nbviewer.org/github/Dat
 
 In English sentence tokenization, the semi-colon is not seen as an end of sentence boundary, which can be seen as "2." is the marked end of the sentence, however in French tokenization, the semi-colon does act as the end of the sentence. In French grammar the semi-colon can complete a sentence but never ends a text. Despite this grammatical rule, the sentence tokenization slighlty differs linguistically in English and French tokenization.
 
-[Here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-Mandarin-Document) is a representation of how `SpaCy` sentence tokenized the same sentence in each langauge 
+[Here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Sentence-Tokenizing-Mandarin-Document) is a representation of how `SpaCy` sentence tokenized the same sentence in each langauge.
+
+Now taking a look at the [dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Creating-DataFrame-for-Analyzation) columns **Sentence_Tokens** and **Sentence_Token_Length** we see that Mandarin has the highest sentence token length at **23363** sentences and Spanish has the lowest at **4861** sentences. This again highlights the character count limit significantly impacting the parallel lingusitic analysis of each langauge due to the fact that Mandarin, unlike Spanish, does not use whitespace characters to seperate words.
 
 **POS Tagging**
 
