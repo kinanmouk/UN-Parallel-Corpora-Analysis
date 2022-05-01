@@ -60,6 +60,22 @@ My goal with processing the UN Parllel corpus was to make lingusitic comparisons
 **Word Tokenization** 
 Taking a look at the `pandas` dataframe created in [`DataProcessing.ipynb`](DataProcessing.ipynb) the first four columns show the [language, document, word_tokens, and word_token_length](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Creating-DataFrame-for-Analyzation) of each language. 
 
+It is shown through these columns the word tokenizaiton process of English, Spanish, French, Russian, and Mandarin. Mandarin has thet largest Word Token count out of each official language at **553748** words, Russian has the lowest at **153964** words.
+
+This means that with a slice of 1 million characters, `SpaCy` obtained 553748 words from the Mandarin `doc` and 153964 words from the Russian `doc`. This shows that Mandarin has shorter words in character count than Russian as well as the other languages. Mandarin words are short, and variance in word length is reduced relative to that of latin languages. 
+
+Despite shorter words, the process of [word tokenizing](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Word-Tokenizing-Mandarin-Document) the Mandarin doc using `SpaCy` took 2 seconds in comparison to that of [French](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Word-Tokenizing-French-Document) which took only .4 seconds. 
+
+This can be attributed to many lingusitic differences, which then can highlight many functions in NLP. Mandarin for example does not use spaces in order to seperate words, whereas French and other languages do. This difference in lingusitic word usage can highlight why `nltk` was unable to properly process Mandarin, there was no whitespace " " between tokens in the documents, and therefore processing in langauges without spaces such as Japanese and Mandarin may present issues in time processing.
+
+
+**Sentence Tokenization**
+
+**POS Tagging**
+
+**Dependency Tagging**
+
+**Entity Labeling**
 
 
 ## Conclusion
