@@ -24,7 +24,7 @@ Cleaning the data for proper use proved to be one of the most difficult tasks of
 
 After opening each file in a text viewer it was clear that each document was not in `XML` file format but in `.txt` format. I explored the new `.txt` file format using the English document and found that there were over 2 billion lines. There were no text markers that I could have used to seperate each document based on the embedded meta-information that was described in the XML format. 
 
-I then moved into [Juypter Notebook](https://jupyter.org/) to begin processing the English text file which was **4.44 GB**.
+I then moved into [Juypter Notebook](https://jupyter.org/) to begin processing the English text file which was **4.44 GB**. Due to the size, it took around 12 minutes for the file to be read into Juypter. The Mandarin file took 32 minutes. After working around in these files in Juypter, the program and cell kernels would die because of the size of files in processing. 
 
 After several trial and error attempts in seperating each UN document within the large English file, I used command line to slice the document into the first 100k lines labeled it as [`english.100k`](#english). I continued this process with each of the language files, each of them can be found in [`data-samples/`](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/data-samples/).
 
