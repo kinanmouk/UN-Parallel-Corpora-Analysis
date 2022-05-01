@@ -106,14 +106,15 @@ Russian has two more POS taggers in its `SpaCy` module than Mandarin, however th
 
 For instance, `SpaCy`'s Mandarin module does not have the POS tag label "SYM," however Russian does. "SYM" means symbol = $, %, §, ©, +, −, ×, ÷, =, :), 😝
 
-The Mandarin module also does not have "AUX" or auxillary such as is, has (done), will (do), should (do) in English.
+The Mandarin module also does not have "AUX" or auxillary such as is, has (done), will (do), should (do) in English, but Mandarin Chinese does use auxillary verbs such as 能 and 能够, 能夠, 会, 會, and 可以. This highlights a slight NLP difference in `SpaCy`'s modules.
 
 **Dependency Tagging**
-
-**Entity Labeling**
+`SpaCy`'s Dependency Tagger was the most exciting tool to work with. Using the `displacy` tool I was able to render a dependency visualization of the same tokenized sentences above for each langauge. 
 
 
 ## Conclusion
+
+Although there were many bumps in the road in moving forward with this parallel corpora analysis. I feel that I have learned valuable skills in Data Science for Linguists, the most important of those being cross-lingusitic comparison in numerical and empirical linguistic data, using different NLP modules for processing such as `nltk`, `SpaCy`, and `CAMeL`, data collection and cleaning, and finally the use of ethical data sources. This project is one of the many first steps towards Data Science success that I will be making as I progress towards a more parallell analysis in the future. 
 
 ## Sources
 Ziemski, M., Junczys-Dowmunt, M., and Pouliquen, B., (2016), The United Nations Parallel Corpus, Language Resources and Evaluation (LREC’16), Portorož, Slovenia, May 2016.
