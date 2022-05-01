@@ -92,7 +92,12 @@ In English sentence tokenization, the semi-colon is not seen as an end of senten
 
 Now taking a look at the [dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/DataProcessing.ipynb#Creating-DataFrame-for-Analyzation) columns **Sentence_Tokens** and **Sentence_Token_Length** we see that Mandarin has the highest sentence token length at **23363** sentences and Spanish has the lowest at **4861** sentences. This again highlights the character count limit significantly impacting the parallel lingusitic analysis of each langauge due to the fact that Mandarin, unlike Spanish, does not use whitespace characters to seperate words.
 
+
 **POS Tagging**
+Here is a `matplot` graph showing the comparison in **POS Count** for each langauge. 
+![POS](https://github.com/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/new_image_files/POS_Count.png)
+
+w
 
 **Dependency Tagging**
 
