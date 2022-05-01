@@ -31,7 +31,7 @@ After several trial and error attempts in seperating each UN document within the
 The next step in cleaning was reading the workable files in for use in [Juypter Notebook](https://jupyter.org/). Again I began with English in order to best analyze how the file was being loaded and presented. Using the `time` method I found that the new workable files were read within around 20 seconds. 
 
 ## Analysis
-I first began processing each language using `nltk` for **word tokenization** and **sentence tokenization**. This worked effectively for English however fell short in other languages as `nltk` is not specifically designed for multilingual processing. This error was captured in word tokenization of the [mandarin.100k](#mandarin)
+I first began processing each language using `nltk` for **word tokenization** and **sentence tokenization**. This worked effectively for English however fell short in other languages as `nltk` is not specifically designed for multilingual processing. This error was captured in word tokenization of the [mandarin.100k](#mandarin). As you can see in the [`pandas` dataframe](https://nbviewer.org/github/Data-Science-for-Linguists-2022/UN-Parallel-Corpora-Analysis/blob/main/UN_Data_Analysis.ipynb#DataFrame-Construction)
 
 
 ## Conclusion
