@@ -4,7 +4,7 @@
   -  Email: <kim47@pitt.edu>
   -  [LinkedIN](https://www.linkedin.com/in/kinan-moukamal-8646b5197/)
   
-**Goal:** Explore the Linguistic Elements of the six Official United Nations' Languages: English, Spanish, French, Russian, Arabic, and Mandarin Chinese.
+**Goal:** Explore the linguistic elements of the six official United Nations' languages: English, Spanish, French, Russian, Arabic, and Mandarin Chinese.
 
 **Data Source:** [United Nations, Department for General Assembly and Conference Management: UN Parallel Corpora](https://conferences.unite.un.org/uncorpus)
 
