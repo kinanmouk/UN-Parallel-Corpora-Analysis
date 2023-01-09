@@ -1,6 +1,6 @@
 # United Nations 6 Way Parallel Corpora Analysis
 **May 1st 2022**
-**By:** Kinan Al-Mouk 
+**By:** Kinan Mouk
   -  Email: <kim47@pitt.edu>
   -  [LinkedIN](https://www.linkedin.com/in/kinan-moukamal-8646b5197/)
   
